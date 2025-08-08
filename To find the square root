@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int number;
+    int result;
+
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    if (number < 0) {
+        printf(" Negative number does not have a real square root.\n");
+      } else {
+         result = (int)sqrt(number);  
+         printf("Integer square root of %d is %d\n", number, result);
+  }
+return 0;
+}
+
